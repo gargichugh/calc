@@ -9,3 +9,5 @@ def calculator(a,b,oper):
         print(a/b)
 
 print(calculator(1,2,3))
+
+print(calculator(7,2,1))
