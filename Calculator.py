@@ -1,13 +1,15 @@
-def calculator(a,b,oper):
-     if oper==1:
-        print(a+b)
-     elif oper==2:
-         print(a-b)
-     elif oper==3:
-        print(a*b)
-     elif oper==3:
-        print(a/b)
 
-print(calculator(1,2,3))
+def add(a, b):
+    return a + b
 
-print(calculator(7,2,1))
+def sub(a, b):
+    return a - b
+
+def mul(a, b):
+    res = 0
+    for i in range(0, b):
+        res = add(res, a)
+    return res
+
+
+print(mul(2, 3))
